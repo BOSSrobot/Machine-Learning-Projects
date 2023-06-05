@@ -39,11 +39,11 @@ pd.DataFrame({
 
 ### Create a line plot showing the top model score for the three (or more) training runs during the project.
 
-![model_train_score.png](img/model_train_score.png)
+![model_train_score.png](model_train_score.png)
 
 ### Create a line plot showing the top kaggle score for the three (or more) prediction submissions during the project.
 
-![model_test_score.png](img/model_test_score.png)
+![model_test_score.png](model_test_score.png)
 
 ## Summary
 This project required the prediction of bike sharing usage based on available data. It was formulated as a regression problem. EDA revealed that certain data types were categorical and that there was a column formatted as a datetime object. These components were extracted and one hot encoded (for the datetime column it was seperated into year, month, day, and hour columns). This data preprocessing greatly helped increase accuracy of the model, decreasing its loss. The model itself was chosen by training multiple models using the Autogluon library. The model with the best score was then chosen to make predictions, yielding a score of 0.56504 when submitted to the Kaggle dataset competition. Hyperparameter tuning on top performing models was attempted, however, due to resource limitations they were unable to yield any model that performed better than the model using the default hyperparameters. Future work could include more analysis of the hyperparameter space to yield more accurate models. 
