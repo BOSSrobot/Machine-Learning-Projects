@@ -1,3 +1,3 @@
 # Machine-Learning-Projects
 
-To learn more about new algorithms I come across, I try applying them to games I create and seeing how well I can perform! This repository contains some of those projects.
+This Repository contains most of my Machine Learning Projects! The Evolutionary Algorithms Folder contains some of my first work with neural networks. The RL folder contains some test implementations of RL Algorithms (code was not cleaned up for clarity). Finally, the Udacity Projects Folder contains the projects I completed as part of the two Udacity Nanodegrees I completed. 
